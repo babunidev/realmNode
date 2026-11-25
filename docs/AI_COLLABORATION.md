@@ -13,6 +13,7 @@ Two rules hold this record together. Work is credited to whoever did it: the sto
 | **Babuni** | Creative: ideas, direction, decisions, corrections | — |
 | **Claude Code** | Coding agent in the repository: research, proposals, documentation | Claude Opus 5.5 |
 | **Earlier AI help** | The game-native concept and the Morkahja-era RealmNode chapters were written with AI assistance | Tool and model not recorded |
+| **ChatGPT** | Recovered available conversation details, audited original concept and repository, drafted subsystem documentation and decision records | GPT-6.2 |
 
 ## Where the details are
 

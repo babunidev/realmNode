@@ -3,19 +3,30 @@
 Where everything in the repository lives.
 
     realmNode/
-    ├── README.md                    entry point
-    ├── AGENTS.md                    instructions for agents and contributors
-    ├── CHANGELOG.md                 repository changes
+    ├── README.md
+    ├── AGENTS.md
+    ├── CHANGELOG.md
     ├── concept/
-    │   └── game-native-concept.md   the architecture
+    │   ├── README.md                 architecture index
+    │   ├── game-native-concept.md    original consolidated baseline
+    │   ├── runtime.md                game/runtime boundaries
+    │   ├── simulation.md             modes, regions, authority
+    │   ├── persistence.md            durable state and recovery
+    │   ├── networking.md             transport, privacy, availability
+    │   ├── security.md               trust and validation
+    │   ├── rules-and-versions.md     packages, releases, compatibility
+    │   ├── companion-node.md         app, roles and contribution
+    │   └── legacy-integration.md     optional earlier adapter/test track
     ├── ideas/
-    │   └── BRAINSTORM.md            open collection of ideas
+    │   ├── BRAINSTORM.md              original idea collection
+    │   └── ENGINEERING_QUESTIONS.md   unresolved technical choices
     └── docs/
-        ├── AI_COLLABORATION.md      who did what, human and AI
-        ├── DECISIONS.md             decisions, newest first
-        ├── DEVLOG.md                development log, newest first
-        ├── DOCUMENTATION.md         documentation standard
-        ├── PROJECT_STRUCTURE.md     this file
-        └── ROADMAP.md               proposed milestones
+        ├── AI_COLLABORATION.md
+        ├── CONCEPT_AUDIT.md           source coverage and limitations
+        ├── DECISIONS.md
+        ├── DEVLOG.md
+        ├── DOCUMENTATION.md
+        ├── PROJECT_STRUCTURE.md
+        └── ROADMAP.md
 
 There is no code yet. When implementation starts, its folders are added here.

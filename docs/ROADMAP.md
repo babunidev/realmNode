@@ -17,3 +17,16 @@ Proposed milestones, from a central server to a public peer network. **Status: p
 - What the contributor reward is and how contribution is measured without being faked.
 - Which language and runtime the app uses, given that Analubia's rules are TypeScript (embedded JavaScript runtime or a second implementation of the rules).
 - How hidden knowledge is protected when a node simulates a region its player has not explored.
+
+## Independent core test track (recovered earlier proposal)
+
+The original architecture proposed testing the core without an MMO first. This can proceed independently of the native-game integration milestones; the sequence is proposed, not an implementation claim.
+
+1. Three local nodes, one shared object, movement, temporary authority, replication and validator comparison. Kill the primary abruptly and verify reassignment and continued execution.
+2. Add node identities, authenticated messages, encryption, persistent state and signed snapshots. Restart a node and verify recovery.
+3. Add a deliberately invalid peer in a controlled test environment: impossible inputs, fake state, invalid signatures, excessive requests, incompatible rules and conflicting state. Verify safe rejection and resource bounds.
+4. Add relay fallback; simulate loss of direct reachability and loss of a relay. Verify reconnection and strict privacy policy.
+5. Test independent machines over real connections, including partition, stale authority, insufficient participation and reconnect. Establish safe durable commits before open participation.
+6. Optional legacy test: unchanged workload over the peer transport, then an external-client runtime adapter for one compatible client if still relevant and permitted. Additional client families are optional.
+
+The [engineering questions](../ideas/ENGINEERING_QUESTIONS.md) describe unresolved prerequisites. Record reproducible evidence for each test; a three-node test cannot establish six-node community verification.

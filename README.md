@@ -8,8 +8,11 @@ An experiment in peer-to-peer gaming: a runtime in which the players' own machin
 
 | Document | What it covers |
 | --- | --- |
+| [Concept index](concept/README.md) | Subsystem architecture, companion app, rules, networking, security and legacy integration |
 | [Game-native concept](concept/game-native-concept.md) | The full architecture: node roles, temporary authority, deterministic simulation, validation, replication, identity, networking and security invariants |
 | [Brainstorm](ideas/BRAINSTORM.md) | Open collection of ideas: the companion app, rewards for contributors, Analubia as the first game |
+| [Concept audit](docs/CONCEPT_AUDIT.md) | Recovered design history, original architecture coverage and limitations |
+| [Open engineering questions](ideas/ENGINEERING_QUESTIONS.md) | Unresolved protocols, implementation choices and evidence requirements |
 | [Roadmap](docs/ROADMAP.md) | Proposed milestones from a central server to a public peer network |
 | [Decisions](docs/DECISIONS.md) | What has been decided, by whom and why |
 | [Development log](docs/DEVLOG.md) | How the project is taking shape |

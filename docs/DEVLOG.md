@@ -2,6 +2,12 @@
 
 A concise account of meaningful project development, written from the human creative's perspective. Newest entries first.
 
+## 2026-11-25 — Consolidating the earlier architecture
+
+To keep the earlier design work from disappearing into conversations, my aim was to gather the original concept and recovered decisions into a navigable architecture. ChatGPT (GPT-6.2) reviewed the repository, the supplied 79-section architecture and retrieved project conversation summaries/excerpts, organized eight subsystem documents, recorded the recovered explicit decisions, and collected unresolved engineering questions. The existing game-native concept and brainstorm remain intact. The earlier external-client test track is separated from the current native-game direction.
+
+**Result:** Documentation only; no implementation or runtime testing. The source coverage and retrieval limitations are recorded in [CONCEPT_AUDIT.md](CONCEPT_AUDIT.md).
+
 ## 2026-11-25 — A repository of its own
 
 RealmNode now lives in its own public repository, [babunidev/realmNode](https://github.com/babunidev/realmNode), written in English and organized like my other projects. Claude Code (Claude Opus 5.5) translated the brainstorm, moved the existing English concept into `concept/`, wrote the agent instructions and the documentation standard after the pattern of my other repositories, and set up the decisions, development log, roadmap, collaboration record and structure overview. References to Analubia stay by name only, because that repository is private.
